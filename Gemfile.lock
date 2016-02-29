@@ -127,6 +127,8 @@ GEM
     gherkin (3.2.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    haml (4.0.7)
+      tilt
     hirb (0.7.3)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
@@ -187,6 +189,7 @@ GEM
     parallel (1.6.2)
     parser (2.3.0.6)
       ast (~> 2.2)
+    pg (0.18.2)
     phantomjs (2.1.1.0)
     procto (0.0.2)
     rack (1.6.4)
@@ -211,6 +214,9 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
     rails_best_practices (1.16.0)
       activesupport
       code_analyzer (>= 0.4.3)
@@ -219,6 +225,8 @@ GEM
       json
       require_all
       ruby-progressbar
+    rails_serve_static_assets (0.0.4)
+    rails_stdout_logging (0.0.3)
     railties (4.2.5)
       actionpack (= 4.2.5)
       activesupport (= 4.2.5)
@@ -327,12 +335,15 @@ DEPENDENCIES
   cucumber-rails-training-wheels
   database_cleaner (= 1.4.1)
   factory_girl_rails
+  haml
   jasmine-rails
   jbuilder (~> 2.0)
   jquery-rails
   launchy
   metric_fu
+  pg
   rails (= 4.2.5)
+  rails_12factor
   rspec-rails (= 3.3.2)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)

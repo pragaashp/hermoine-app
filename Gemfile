@@ -32,6 +32,7 @@ group :test do
   gem 'capybara', '2.4.4'
   gem 'autotest-rails'
   gem 'simplecov', :require => false
+  gem "codeclimate-test-reporter", :require => nil
   gem 'factory_girl_rails'
   gem 'metric_fu'
 end

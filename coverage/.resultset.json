@@ -1,0 +1,32 @@
+{
+  "Cucumber Features": {
+    "coverage": {
+      "/Users/PragaashP/Workspace/hermoine/app/controllers/main_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/PragaashP/Workspace/hermoine/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/PragaashP/Workspace/hermoine/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/PragaashP/Workspace/hermoine/app/helpers/main_helper.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1458194914
+  }
+}

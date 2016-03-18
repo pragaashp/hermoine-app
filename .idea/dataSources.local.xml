@@ -4,5 +4,9 @@
     <data-source name="Rails hermoine: development" uuid="80136a92-346f-4ac3-bb00-d7aa943ddb08">
       <auth-required>false</auth-required>
     </data-source>
+    <data-source name="Rails hermoine: test" uuid="174009cf-a66d-40ed-898e-fd6a3a23795e">
+      <auth-required>false</auth-required>
+    </data-source>
+    <data-source name="Rails hermoine: cucumber" uuid="fc1b8715-663f-4cc7-bbcf-011792bf3fcd" />
   </component>
 </project>

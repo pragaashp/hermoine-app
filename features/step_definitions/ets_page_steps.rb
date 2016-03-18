@@ -9,6 +9,6 @@ Then /I should see "(.*)" before "(.*)"/ do |e1, e2|
 #   page.body.should =~ regexp
 end
 
-Given(/^I click on "([^"]*)"$/) do |arg1|
+Given /^I click on "([^"]*)"$/ do |arg1|
 
 end

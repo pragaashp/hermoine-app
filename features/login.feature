@@ -1,7 +1,8 @@
-Feature: login to the website
+Feature: Login and authentication via CalNet.
+
   As a user
-	So that I can log in.
-	I want to click on the login button on the splash page and to be redirected to a login pages
+  So that I can log in
+  I want to click on the login button on the splash page and to be redirected to a login pages
 	
  Scenario: login to admin dashboard
     Given I am on the home page

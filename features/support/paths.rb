@@ -17,10 +17,10 @@ module NavigationHelpers
       '/'
     
     # Temporary placeholder until an actual path exists
-    when /^the professor request\s?page$/
+    when /^the professor request page$/
       '/'
       
-    when /^the ETS\s?page$/
+    when /^the ETS page$/
       '/'
 
     # Add more mappings here.

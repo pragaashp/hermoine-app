@@ -1,8 +1,8 @@
 Feature: display collection of videos on splash page
 
-  As a professor
-  So that I can sign in to the ETS recording request system
-  I want to see vides of ETS recordings and a log in button
+  As a visitor
+  So that I can learn more about Project Hermoine
+  I want to see video demos of using Hermoine
 
   Scenario: splash page with demo videos
     # Change the video titles when necessary.
@@ -13,11 +13,3 @@ Feature: display collection of videos on splash page
     Then I should see a video titled "Organizing Courses"
     When I follow the "Editing Webcasts" video thumbnail
     Then I should see a video titled "Editing Webcasts"
-
-  Scenario: login to admin dashboard
-    Given I am on the home page
-    When I follow "Sign In"
-    And I fill in the "Username" field with "user"
-    And I fill in the "Password" field with "password"
-    And I press "LOGIN"
-    # More steps to be once admin pages are set-up.

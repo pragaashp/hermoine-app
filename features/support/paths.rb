@@ -19,6 +19,9 @@ module NavigationHelpers
     # Temporary placeholder until an actual path exists
     when /^the professor request\s?page$/
       '/'
+      
+    when /^the ETS\s?page$/
+      '/'
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

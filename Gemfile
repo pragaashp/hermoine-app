@@ -14,7 +14,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'rubycas-client-rails'
+gem 'rubycas-client-rails', :git => "git://github.com/creativecommons/rubycas-client-rails.git"
+
 group :development, :test do
   gem 'byebug'              # Debugger.
   gem 'spring'              # Run App in Background.

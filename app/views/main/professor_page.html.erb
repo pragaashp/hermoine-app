@@ -1,0 +1,36 @@
+<html>
+    <style>
+    table, td, th { border : 1px solid black; }
+    th { padding : 13px; }
+    td { padding : 15px; }
+    </style>
+    <head>
+        <body>
+            <h4><a class="create-link" href="/create_request">Create a new webcast request</a></h4>
+            <table id="classesTable">
+                <th>Class Name</th>
+                <th>Class Location</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+                <th>Days</th>
+                <th></th>
+                <br />
+                <h3>Listing requests for: <%= @professor %></h3>
+                <br></br>
+                
+                <br></br>
+                <% @requests.each do |r| %>
+                    <tr>
+                        <td><%=r.request_class%></td>
+                        <td><%=r.building + " " + r.room%></td>
+                        <td><%=r.start_time%></td>
+                        <td><%=r.end_time%></td>
+                        <td><%=r.days%></td>
+                        <td><a class="edit-link" href="/edit_request">Edit this request</a></td>
+                    </tr>
+                <% end %>
+                
+            </table>
+        </body>
+    </head>
+</html>

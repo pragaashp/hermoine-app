@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root 'main#index'
   
-  get '/login' => 'main#login'
+  get '/professor_page' => 'professor_page#professor_page'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

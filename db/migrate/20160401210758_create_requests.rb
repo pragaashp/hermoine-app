@@ -1,7 +1,7 @@
 class CreateRequests < ActiveRecord::Migration
   def change
     create_table :requests do |t|
-      t.string :class
+      t.string :request_class
       t.string :days
       t.time :start_time
       t.time :end_time

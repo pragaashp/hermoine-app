@@ -20,8 +20,8 @@ module NavigationHelpers
     when /^the professor request page$/
       '/professor_page'
       
-    when /^the ETS page$/
-      '/'
+    when /^the ETS\s?page$/
+      '/ets'
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

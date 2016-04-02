@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   root 'main#index'
   
   get '/professor_page' => 'professor_page#professor_page'
+  get '/ets'=> 'main#ets'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

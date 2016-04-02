@@ -1,0 +1,40 @@
+%h1 Ets Page
+
+:css
+  table th {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:Arial, sans-serif;
+  }
+  table td {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    font-family:Arial, sans-serif;
+  }
+
+%h3 Requests
+%table{:border => 1}
+  %thead
+    %tr
+      %th= link_to 'Professor'
+      %th= link_to 'Building'
+      %th= link_to 'Room'
+      %th= link_to 'Layout'
+      %th= link_to 'Date Requested'
+  %tbody
+    %tr
+      %td= 'Armando Fox'
+      %td= 'Evans'
+      %td= '10'
+      %td= '1'
+      %td= '2007-01-18 06:10:17'
+    // - @request
+    //   %tr
+    //     %td= request.professor
+    //     %td= request.building
+    //     %td= request.room
+    //     %td= request.layout
+    //     %td= request.date_requested

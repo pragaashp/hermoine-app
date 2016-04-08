@@ -20,6 +20,9 @@ module NavigationHelpers
     when /^the professor request page$/
       '/professor_page'
       
+    when /^the create new request page$/
+      '/professor_page'
+      
     when /^the ETS\s?page$/
       '/ets'
 
